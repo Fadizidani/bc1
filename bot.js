@@ -67,7 +67,7 @@ m.sendMessage(args)
 
   client.on('message', msg => {
     if(msg.content === '$help')
-    msg.reply('Check Your DM :white_check_mark:')
+    msg.reply('شوف خاصك :white_check_mark:')
   });
   
   
@@ -76,7 +76,7 @@ m.sendMessage(args)
      const embed = new Discord.RichEmbed() 
          .setColor("#00FF00")
          .setThumbnail(message.author.avatarURL)
-         .setDescription(`**Help|هيلب
+         .setDescription(`**Help|مساعدة
 
        $obc | لأرسال برود كاست للكل
 
@@ -84,7 +84,7 @@ m.sendMessage(args)
 
        $adminbc | برودكاست عادي
 
-       ** `)
+       by Yaser_box ** `)
    message.author.sendEmbed(embed)
    
    }
